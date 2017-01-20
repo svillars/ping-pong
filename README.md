@@ -1,8 +1,8 @@
-# _Track Suggester_
+# _Ping Pong_
 
 #### By _**Shane Villars**_
 
-#### _Track Suggester webpage created at Epicodus, 1/20/2017_
+#### _Ping Pong webpage created at Epicodus, 1/20/2017_
 
 ## Description
 
