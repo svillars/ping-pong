@@ -3,7 +3,6 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-    $(".output").text(" ");
     var num = $("input").val();
     pingPong(num);
     $(".output").text(final);
@@ -23,6 +22,6 @@ function pingPong(num) {
     } else {
       output.push(i);
     }
-    final = output.join(',');
+    final = output.join(', ');
   }
 }

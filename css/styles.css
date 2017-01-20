@@ -15,4 +15,9 @@
 
 .output {
   background-color: grey;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 3%;
 }
