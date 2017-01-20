@@ -1,4 +1,18 @@
 .jumbotron {
   text-align: center;
   background-color: #4286f4;
+  border: solid black 3px;
+}
+
+.container {
+  background-color: gray;
+}
+
+.row {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.output {
+  background-color: grey;
 }
