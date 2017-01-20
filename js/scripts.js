@@ -4,7 +4,20 @@ $(document).ready(function() {
     event.preventDefault();
 
     var num = $("input").val();
-
-    $(".output").text(num);
+    pingPong(num);
+    $(".output").text(output);
   })
 })
+
+//Business logic =================================
+var output = [];
+function pingPong(num) {
+  for(i = 1; i <= num; i++) {
+    //if (num % 15 === 0) {
+    output.push(i);
+    }
+    console.log(num);
+    console.log(output);
+    output.join(',');
+  //}
+}
